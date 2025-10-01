@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f9;
+  color: #333;
+}
+
+header {
+  background-color: #e91e63;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  background-image: url('flores.jpg');
+  background-size: cover;
+  padding: 5em;
+  text-align: center;
+  color: white;
+}
+
+.boton {
+  background-color: #e91e63;
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  padding: 2em;
+}
+
+.producto {
+  background-color: white;
+  border: 1px solid #eee;
+  padding: 1em;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+  margin: auto;
+}
